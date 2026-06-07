@@ -1,0 +1,79 @@
+node_modules/
+.env
+logs/
+uploads/*
+!uploads/.gitkeep
+dist/
+# backend/.gitignore
+
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Environment files — NEVER commit these
+.env
+**/.env
+.env.local
+.env.development
+.env.production
+.env.test
+**/.env.local
+**/.env.development
+**/.env.production
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+**/logs/
+**/*.log
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage
+coverage/
+**/coverage/
+.nyc_output/
+
+# Build output
+dist/
+build/
+**/dist/
+**/build/
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Uploads (local dev only)
+uploads/
+**/uploads/
+
+# Docker
+.dockerignore
+
+# Temp
+tmp/
+temp/
+.tmp/
